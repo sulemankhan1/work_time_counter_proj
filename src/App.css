@@ -1,0 +1,11 @@
+.padded_top {
+  padding-top: 20px;
+}
+.hide-it {
+  display: none;
+}
+.mbtn {
+  display: inline-block;
+  float: left;
+  margin: 2px;
+}
