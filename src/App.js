@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import RecentLogs from "./components/RecentLogs";
+import logo from "./logo.png";
 // import Timer from "./components/Timer";
 
 // import Analytics from "./components/Analytics";
@@ -225,7 +226,10 @@ class App extends Component {
         <div className="container">
           <div className="col-md-12">
             <br />
-            <h2>Work Time Counter</h2>
+            <h2>
+              <img src={logo} width="80" className="unpadded_top" />{" "}
+              <span className="padded_top">Work Time Counter</span>
+            </h2>
             <div className="jumbotron">
               <div className="col-md-10 float-left">
                 <div className="row">Working From</div>
